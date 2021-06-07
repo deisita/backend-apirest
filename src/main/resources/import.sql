@@ -1,0 +1,3 @@
+INSERT INTO planes (codigo_plan,descripcion_plan) VALUES (1,'Plan Premiun');
+INSERT INTO tipos_identificacion(`codigo_tipo_identificacion`,`descripcion_tipo_identificacion`)VALUES (1,'CC-Cedula de Ciudadania');
+INSERT INTO clientes (codigo_tipo_identificacion,numero_identificacion,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,direccion,numero_celular,email,fecha_nacimiento,codigo_plan)VALUES (1,36311275,'Maria','deisy','Liberato','herrera','Calle',12345,'deisylh@gmail.com','1984-12-14',1)
